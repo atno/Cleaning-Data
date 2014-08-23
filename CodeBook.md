@@ -19,7 +19,7 @@ Summary table
 A summary of the kind of varibales in the dataset. The complete list of variables and their description is <here>.
         
 VARABLE NAME           | DESCRIPTION
----------------------------------------------------------------------------------------------------------
+-----------------------|----------------------------------------------------------------------------------
 subject                | categorical variable defining the subject under test. 
 activity               | A categorical variable defining the subject activity. 
 tBodyAcc               | body linear acceleration signals, measured as mean (mean) and standard deviation (std), in the directions x, y, z
@@ -32,7 +32,6 @@ tGravityAccMag         | magnitude of gravity linear acceleration, measured as m
 tBodyAccJerkMag        | magnitude of body linear acceleration (Jerk signals), measured as mean (mean) and standard deviation (std)
 tBodyGyroMag           | magnitude of body angular velocity, measured as mean (mean) and standard deviation (std)
 tBodyGyroJerkMag       | magnitude of body angular velocity (Jerk signals), measured as mean (mean) and standard deviation (std)
-
 fBodyAcc               | Fourier Transform of the body linear acceleration signals, measured as mean (mean) and standard deviation (std), in the directions x, y, z
 fBodyAccJerk           | Fourier Transform of the body linear acceleration (Jerk signals), measured as mean (mean) and standard deviation (std), in the directions x, y, z
 fBodyGyro              | Fourier Transform of the body angular velocity, measured as mean (mean) and standard deviation (std), in the directions x, y, z
@@ -48,7 +47,7 @@ fBodyGyroJerkMag       | Fourier Transform of the magnitude of body angular velo
 Variables list and description
 ------------------------------
 
-
+```
 subject
    Description: A categorical variable defining the subject under test. 
    Values:      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
@@ -159,7 +158,7 @@ fBodyGyroMag-std()
 fBodyGyroJerkMag-mean()
 fBodyGyroJerkMag-std()
     Fourier Transform of the magnitude of body angular velocity (Jerk signals), measured as mean (mean) and standard deviation (std)
-
+```
 
 
 
@@ -168,9 +167,8 @@ fBodyGyroJerkMag-std()
 Notes
 -----
 
-data proposed here come from the original dataset proposed in [1].
+data proposed here come from the original dataset proposed in [1]. Transformations performed to clean up data:
 
-Transformations performed to clean up data:
 - only the measurements on the mean and standard deviation for each measurement.
 - rows of the dataset are average measurement of each variable for each activity and each subject.
 
