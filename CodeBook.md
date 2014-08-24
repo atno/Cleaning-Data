@@ -13,10 +13,9 @@ Index
 
 
 
-
+<a name="table"></a>
 Summary table
 -------------
-<a name="table"></a>
 
 A summary of the kind of varibales in the dataset. The complete list of variables and their description is [here](#list).
         
@@ -45,10 +44,9 @@ fBodyGyroJerkMag       | Fourier Transform of the magnitude of body angular velo
 
 
 
-
+<a name="list"></a>
 Variables list and description
 ------------------------------
-<a name="list"></a>
 
 ```
 subject
@@ -188,10 +186,9 @@ fBodyGyroJerkMag-std()
 
 
 
-
+<a name="notes"></a>
 Notes
 -----
-<a name="notes"></a>
 
 Data described here come from the original data available from this [repository](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), and were published in [1]. Further information on the original dataset are available at the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
