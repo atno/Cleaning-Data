@@ -66,7 +66,8 @@ tBodyAcc-mean()-Z
 tBodyAcc-std()-X
 tBodyAcc-std()-Y
 tBodyAcc-std()-Z
-   body linear acceleration signals, measured as mean (mean) and standard deviation (std), in the directions x, y, z
+   Description: body linear acceleration signals, measured as mean (mean) and 
+                standard deviation (std), in the directions x, y, z
 
 tGravityAcc-mean()-X
 tGravityAcc-mean()-Y
@@ -74,16 +75,18 @@ tGravityAcc-mean()-Z
 tGravityAcc-std()-X
 tGravityAcc-std()-Y
 tGravityAcc-std()-Z
-   gravity linear acceleration signals, measured as mean (mean) and standard deviation (std), in the directions x, y, z
-
+   Description: gravity linear acceleration signals, measured as mean (mean) and 
+                standard deviation (std), in the direc
 
 tBodyAccJerk-mean()-X
 tBodyAccJerk-mean()-Y
 tBodyAccJerk-mean()-Z
 tBodyAccJerk-std()-X
 tBodyAccJerk-std()-Y
-tBodyAccJerk-std()-Z
-   body linear acceleration (Jerk signals), measured as mean (mean) and standard deviation (std), in the directions x, y, z
+tBodyAccJerk-std()-Ztions x, y, z
+
+   Description: body linear acceleration (Jerk signals), measured as mean (mean) 
+                and standard deviation (std), in the directions x, y, z
 
 tBodyGyro-mean()-X
 tBodyGyro-mean()-Y
@@ -91,7 +94,8 @@ tBodyGyro-mean()-Z
 tBodyGyro-std()-X
 tBodyGyro-std()-Y
 tBodyGyro-std()-Z
-   body angular velocity, measured as mean (mean) and standard deviation (std), in the directions x, y, z
+   Description: body angular velocity, measured as mean (mean) and standard 
+                deviation (std), in the directions x, y, z
 
 
 tBodyGyroJerk-mean()-X
@@ -100,27 +104,33 @@ tBodyGyroJerk-mean()-Z
 tBodyGyroJerk-std()-X
 tBodyGyroJerk-std()-Y
 tBodyGyroJerk-std()-Z
-   body angular velocity (Jerk signals), measured as mean (mean) and standard deviation (std), in the directions x, y, z
+   Description: body angular velocity (Jerk signals), measured as mean (mean) 
+                and standard deviation (std), in the directions x, y, z
 
 tBodyAccMag-mean()
 tBodyAccMag-std()
-   magnitude of body linear acceleration, measured as mean (mean) and standard deviation (std)
+   Description: magnitude of body linear acceleration, measured as mean (mean) 
+                and standard deviation (std)
 
 tGravityAccMag-mean()
 tGravityAccMag-std()
-   magnitude of gravity linear acceleration, measured as mean (mean) and standard deviation (std)
+   Description: magnitude of gravity linear acceleration, measured as mean (mean)
+                and standard deviation (std)
 
 tBodyAccJerkMag-mean()
 tBodyAccJerkMag-std()
-   magnitude of body linear acceleration (Jerk signals), measured as mean (mean) and standard deviation (std)
+   Description: magnitude of body linear acceleration (Jerk signals), measured 
+                as mean (mean) and standard deviation (std)
 
 tBodyGyroMag-mean()
 tBodyGyroMag-std()
-   magnitude of body angular velocity, measured as mean (mean) and standard deviation (std)
+   Description: magnitude of body angular velocity, measured as mean (mean) and 
+                standard deviation (std)
 
 tBodyGyroJerkMag-mean()
 tBodyGyroJerkMag-std()
-    magnitude of body angular velocity (Jerk signals), measured as mean (mean) and standard deviation (std)
+    Description: magnitude of body angular velocity (Jerk signals), measured as 
+                 mean (mean) and standard deviation (std)
 
 fBodyAcc-mean()-X
 fBodyAcc-mean()-Y
@@ -128,7 +138,9 @@ fBodyAcc-mean()-Z
 fBodyAcc-std()-X
 fBodyAcc-std()-Y
 fBodyAcc-std()-Z
-    Fourier Transform of the body linear acceleration signals, measured as mean (mean) and standard deviation (std), in the directions x, y, z
+    Description: Fourier Transform of the body linear acceleration signals, 
+                 measured as mean (mean) and standard deviation (std), in 
+                 the directions x, y, z
 
 fBodyAccJerk-mean()-X
 fBodyAccJerk-mean()-Y
@@ -136,7 +148,9 @@ fBodyAccJerk-mean()-Z
 fBodyAccJerk-std()-X
 fBodyAccJerk-std()-Y
 fBodyAccJerk-std()-Z
-    Fourier Transform of the body linear acceleration (Jerk signals), measured as mean (mean) and standard deviation (std), in the directions x, y, z
+    Description: Fourier Transform of the body linear acceleration (Jerk signals), 
+                 measured as mean (mean) and standard deviation (std), in the 
+                 directions x, y, z
 
 fBodyGyro-mean()-X
 fBodyGyro-mean()-Y
@@ -144,23 +158,31 @@ fBodyGyro-mean()-Z
 fBodyGyro-std()-X
 fBodyGyro-std()-Y
 fBodyGyro-std()-Z
-    Fourier Transform of the body angular velocity, measured as mean (mean) and standard deviation (std), in the directions x, y, z
+    Description: Fourier Transform of the body angular velocity, 
+                 measured as mean (mean) and standard deviation (std), 
+                 in the directions x, y, z
 
 fBodyAccMag-mean()
 fBodyAccMag-std()
-    Fourier Transform of the magnitude of body linear acceleration, measured as mean (mean) and standard deviation (std)
+    Description: Fourier Transform of the magnitude of body linear acceleration, 
+                 measured as mean (mean) and standard deviation (std)
 
 fBodyAccJerkMag-mean()
 fBodyAccJerkMag-std()
-    Fourier Transform of the magnitude of body linear acceleration (Jerk signals), measured as mean (mean) and standard deviation (std)
+    Description: Fourier Transform of the magnitude of body linear 
+                 acceleration (Jerk signals), measured as mean (mean) 
+                 and standard deviation (std)
 
 fBodyGyroMag-mean()
 fBodyGyroMag-std()
-    Fourier Transform of the magnitude of body angular velocity, measured as mean (mean) and standard deviation (std)
+    Description: Fourier Transform of the magnitude of body angular velocity, 
+                 measured as mean (mean) and standard deviation (std)
 
 fBodyGyroJerkMag-mean()
 fBodyGyroJerkMag-std()
-    Fourier Transform of the magnitude of body angular velocity (Jerk signals), measured as mean (mean) and standard deviation (std)
+    Description: Fourier Transform of the magnitude of body angular 
+                 velocity (Jerk signals), measured as mean (mean) 
+                 and standard deviation (std)
 ```
 
 
@@ -171,10 +193,7 @@ Notes
 -----
 <a name="notes"></a>
 
-data proposed here come from the original dataset proposed in [1]. Transformations performed to clean up data:
-
-- only the measurements on the mean and standard deviation for each measurement.
-- rows of the dataset are average measurement of each variable for each activity and each subject.
+Data described here come from the original data available from this [repository](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), and were published in [1]. Further information on the original dataset are available at the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 
 Use of this dataset in publications must be acknowledged by referencing the following publication:
