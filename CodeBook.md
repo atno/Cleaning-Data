@@ -13,10 +13,11 @@ Index
 
 
 
+
 Summary table
 -------------
 
-A summary of the kind of varibales in the dataset. The complete list of variables and their description is <here>.
+A summary of the kind of varibales in the dataset. The complete list of variables and their description is [here](#list).
         
 VARABLE NAME           | DESCRIPTION
 -----------------------|----------------------------------------------------------------------------------
@@ -46,7 +47,7 @@ fBodyGyroJerkMag       | Fourier Transform of the magnitude of body angular velo
 
 Variables list and description
 ------------------------------
-
+<a name="list"></a>
 ```
 subject
    Description: A categorical variable defining the subject under test. 
