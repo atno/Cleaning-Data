@@ -7,15 +7,16 @@ Dataset of Human Activity Recognition Using Smartphones Dataset
 Index
 ------
 
-- Summary table
-- Variables list and description
-- Notes
+- [Summary table](#table)
+- [Variables list and description](#list)
+- [Notes](#notes)
 
 
 
 
 Summary table
 -------------
+<a name="table"></a>
 
 A summary of the kind of varibales in the dataset. The complete list of variables and their description is [here](#list).
         
@@ -48,6 +49,7 @@ fBodyGyroJerkMag       | Fourier Transform of the magnitude of body angular velo
 Variables list and description
 ------------------------------
 <a name="list"></a>
+
 ```
 subject
    Description: A categorical variable defining the subject under test. 
@@ -167,6 +169,7 @@ fBodyGyroJerkMag-std()
 
 Notes
 -----
+<a name="notes"></a>
 
 data proposed here come from the original dataset proposed in [1]. Transformations performed to clean up data:
 
